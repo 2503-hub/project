@@ -1,0 +1,86 @@
+h1 {
+    text-align: center;
+    text-decoration-line: underline;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: goldenrod;
+    font-size: 2.5em;
+    letter-spacing: .5em;
+    line-height: 35px;
+}
+
+img.gag{
+    position: relative;
+    top:  -100px;
+    padding-left: 10em;
+    
+}
+
+div{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 0 auto;
+    /* padding-left: 45em; */
+}
+
+p.A{
+    word-spacing: .75em;
+    text-align: justify;
+    padding-left: 4em;
+    bottom:  350px;
+    font-size: 2.5em;
+    text-decoration:underline;
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("pictures/L.jpg");
+    background-size: cover;    
+}
+nav{
+    background-color: lightgreen;
+    overflow: hidden;
+    background-position: center;
+    height: 1ovh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul{
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline-flex;
+    font-size: 1.1em;
+}
+nav ul li a{
+    display: block;
+    padding:  0em 5em;
+    text-decoration: underline;
+    color:black;
+}
+nav ul li a:hover {
+    color:blueviolet;
+}
+div.w{
+    display: flex;
+     padding-bottom:  10px; 
+}
+div.insert{
+    margin-right: .75em;
+}
+form {
+    text-align: center;
+    top:  20px;
+}
+
